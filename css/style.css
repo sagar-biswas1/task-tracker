@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #fffbf0;
+}
+.navbar-links {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar-design {
+  margin-top: 3%;
+}
+#welcome-heading-p1 {
+  color: rgb(0, 14, 54);
+}
+#welcome-heading-p2,
+.price {
+  color: rgb(255, 167, 4);
+}
+.image {
+  width: 85%;
+}
+.price {
+  padding: 3px;
+  margin-left: 6px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.button {
+  background-color: rgb(58, 58, 255);
+  color: white;
+  padding: 4px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.commuication-icon {
+  width: 15%;
+  padding: 4px;
+}
+.input-form {
+  display: flex;
+}
+
+.image-frame {
+  width: 100%;
+}
+.image-frame > img {
+  width: 50%;
+  height: 45%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 520px) {
+  .hero-section,
+  .communication-container,
+  .video-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 770px) {
+  .communication-container,
+  .video-container {
+    flex-direction: column;
+  }
+}
